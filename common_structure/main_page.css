@@ -1,0 +1,104 @@
+body {
+    background-color: #ece7f2;
+}
+
+.bigbody {
+    width: 1200px;
+    margin: 30px 30px 0px 30px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#head {
+    font-family: Arial Black;
+    font-size: 30px;
+    padding-left: 20px
+
+}
+#navibar {
+    width: 1200px;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    color: #3690c0;
+}
+
+.menubtn {
+    height: 80px;
+    color: white;
+    margin-left: 30px;
+    font-family: Arial Black;
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 25px;
+    color: #3690c0;
+    cursor: pointer;
+}
+.menubtn:hover{
+    color: #045a8d;
+}
+#searchbar{
+    border: 1px dashed #cccccc;
+    float: right;
+    width: 300px;
+    height : 78px;
+    display: inline-block;
+}
+
+.imghead {
+    position: relative;
+    background: rgb(104, 169, 253);
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    font-family: Arial Black;
+    color: Black;
+}
+
+.imghead:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(http://nebula.wsimg.com/84a202fe2e9e43866bf5c12c3a9d23d9?AccessKeyId=7C6F81B24793819A5B25&disposition=0&alloworigin=1) center center;
+    /* background-repeat: no-repeat; */
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#contents {
+    width: 1100px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+}
+
+
+
+#footer {
+    width: 1100px;
+    height: 100px;
+    padding: 50px 50px 0px 50px;
+    border-top: 1px solid #cccccc;
+}
+
+
+#footer div:first-child {
+    display: inline-block;
+    width: 1000px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+#footer div:nth-child(2) {
+    float: right;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    display: inline-block;
+}

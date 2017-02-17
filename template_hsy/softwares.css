@@ -1,0 +1,53 @@
+
+ul#softwares {
+    list-style: none;
+    width: 900px;
+}
+
+.software-image {
+    position: relative;
+    padding-right: 15px;
+    padding-top: 10px;
+    width: 30%;
+    vertical-align: middle;
+    display: inline-table;
+    float: left;
+}
+
+ul#softwares li dl {
+    position: relative;
+    width: 66%;
+    display: inline-table;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+dt dd {
+    font-family: Calibri;
+}
+
+dt {
+    font-weight: bold;
+    color: #636363;
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+dd {
+    font-size: 1.5em;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #252525;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #636363;
+}
